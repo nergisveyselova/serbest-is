@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 150px;
+    width: 100%;
+    background-color: #8BC34A;
+    text-align: center;
+}
+
+nav h1 {
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.box h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.boxes1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.b1 {
+    width: calc(90%/3);
+    height: 200px;
+}
+
+.b2 {
+    width: calc(90%/3);
+    height: 200px;
+}
+
+.b3 {
+    width: calc(90%/3);
+    height: 200px;
+}
+
+.boxes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.b4 {
+    width: calc(90%/3);
+    height: 200px;
+}
+
+.b5 {
+    width: calc(90%/3);
+    height: 200px;
+}
+
+.b6 {
+    width: calc(90%/3);
+    height: 200px;
+}
+
+.box i {
+    font-size: 30px;
+    border: 2px solid #8BC34A;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    position: absolute;
+    color: #8BC34A;
+    background-color: #eeffda;
+}
+
+.box h3 {
+    margin: 5px 70px;
+}
+
+.box p {
+    margin: 5px 70px;
+}
+
+.end {
+    margin-top: 600px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    padding: 30px;
+}
+
+.end h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.end h3 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.imtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.image {
+    width: calc(90%/2);
+    height: 350px;
+    margin-right: 20px;
+}
+
+.txt {
+    width: calc(90%/2);
+    height: 350px;
+    color: rgb(152, 152, 152);
+}
+
+.edge {
+    margin-left: 20px;
+    color: rgb(152, 152, 152);
+}
